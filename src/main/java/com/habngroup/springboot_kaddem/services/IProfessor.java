@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface IProfessor {
     void addProfessor(Professor professor);
-    void updateProfessor(Long professorId, Professor professor);
+    void updateProfessor( Professor professor);
     void deleteProfessor(Professor professor);
     void deleteProfessorById(Long professorId);
     List<Professor> getAllProfessors();

@@ -16,7 +16,7 @@ public class ProfessorService implements IProfessor{
     }
 
     @Override
-    public void updateProfessor(Long professorId, Professor professor) {
+    public void updateProfessor( Professor professor) {
         professorRepo.save(professor);
     }
 
